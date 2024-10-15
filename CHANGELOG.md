@@ -1,4 +1,5 @@
 # 1.1.0-rc.1 [15-10-2024]
+* feat: add vscode launcher file [15-10-2024]
 * feat: add insomnia collections file [15-10-2024]
 * feat: upgrade app version to release candidate 1 [15-10-2024]
 
