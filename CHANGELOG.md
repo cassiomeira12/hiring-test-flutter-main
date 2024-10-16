@@ -1,4 +1,5 @@
 # 1.1.0-rc.1 [15-10-2024]
+* feat: create crypto usecases [16-10-2024]
 * feat: implements crypto repository [16-10-2024]
 * feat: create crypto repositories interface [16-10-2024]
 * feat: create crypto entities [16-10-2024]
