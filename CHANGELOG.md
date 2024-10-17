@@ -1,4 +1,5 @@
 # 1.1.0-rc.1 [15-10-2024]
+* feat: create money formatter helper [17-10-2024]
 * feat: create crypto name helper [17-10-2024]
 * fix: update native app name o Crypto Chart [17-10-2024]
 * feat: create crypto filter enum [17-10-2024]
