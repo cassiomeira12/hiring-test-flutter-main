@@ -17,6 +17,7 @@ void main() {
       CryptoRepository(webSocket: webSocket),
     );
     observer = DefaultTestObserver();
+    webSocket.connect();
   });
 
   tearDownAll(() {

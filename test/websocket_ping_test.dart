@@ -18,6 +18,7 @@ void main() {
       ),
     );
     observer = DefaultTestObserver();
+    webSocket.connect();
   });
 
   tearDownAll(() {

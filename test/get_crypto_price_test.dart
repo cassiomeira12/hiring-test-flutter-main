@@ -17,6 +17,7 @@ void main() {
       CryptoPriceRepository(webSocket: webSocket),
     );
     observer = DefaultTestObserver();
+    webSocket.connect();
   });
 
   tearDownAll(() {
