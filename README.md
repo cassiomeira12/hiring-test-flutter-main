@@ -1,3 +1,11 @@
+# Crypto Chart App
+<p align="center"> 
+  <img src="screenshots/home.jpeg" width="30%" title="hover text"> 
+</p>
+
+### 🗺️  Video do App
+https://github.com/user-attachments/assets/786a68e1-02a2-4b87-9858-84599e4f9f60
+
 # Pré-requisitos
 
 #### O que é permitido:
