@@ -1,14 +1,14 @@
 import 'package:flutter_clean_architecture/flutter_clean_architecture.dart';
 
-class DefaultTestObserver implements Observer<dynamic> {
+class DefaultTestObserver<T> implements Observer<T> {
   bool ended = false;
   bool done = false;
   bool error = false;
-  dynamic data;
+  T? data;
   late Exception exception;
 
   @override
-  void onNext(dynamic data) {
+  void onNext(T? data) {
     this.data = data;
   }
 
