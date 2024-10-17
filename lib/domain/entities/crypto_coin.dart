@@ -16,4 +16,13 @@ class CryptoCoin {
       sortIndex: map['SortIndex'] as int,
     );
   }
+
+  String get coinSymbol {
+    return symbol.split('/').first;
+  }
+
+  @override
+  String toString() {
+    return '$symbol $instrumentId $sortIndex';
+  }
 }
