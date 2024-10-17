@@ -1,4 +1,5 @@
 # 1.1.0-rc.1 [15-10-2024]
+* feat: add integration home view test [17-10-2024]
 * feat: create crypto coin and crypto price observers [17-10-2024]
 * feat: create crypto coin widget [17-10-2024]
 * feat: add ios app launcher [17-10-2024]
