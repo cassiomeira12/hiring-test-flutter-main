@@ -1,4 +1,5 @@
 # 1.1.0-rc.1 [15-10-2024]
+* feat: create constants to store baseUrl [17-10-2024]
 * fix: fix: add generics on default test observer [17-10-2024]
 * fix: update unit test usecases [17-10-2024]
 * fix: update usecases [17-10-2024]
