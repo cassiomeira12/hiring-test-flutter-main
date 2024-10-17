@@ -9,7 +9,7 @@ import 'utils/default_test_observer.dart';
 void main() {
   late FoxbitWebSocket webSocket;
   late GetCryptoPriceUsecase useCase;
-  late DefaultTestObserver observer;
+  late DefaultTestObserver<CryptoPrice> observer;
 
   setUpAll(() {
     webSocket = FoxbitWebSocket();
@@ -19,11 +19,7 @@ void main() {
     observer = DefaultTestObserver();
   });
 
-  setUp(() {
-    webSocket.connect();
-  });
-
-  tearDown(() {
+  tearDownAll(() {
     useCase.dispose();
   });
 

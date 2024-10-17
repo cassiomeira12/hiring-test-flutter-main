@@ -19,11 +19,7 @@ void main() {
     observer = DefaultTestObserver();
   });
 
-  setUp(() {
-    webSocket.connect();
-  });
-
-  tearDown(() {
+  tearDownAll(() {
     useCase.dispose();
   });
 
