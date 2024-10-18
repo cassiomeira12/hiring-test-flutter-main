@@ -3,6 +3,9 @@
   <img src="screenshots/home.jpeg" width="30%" title="hover text"> 
 </p>
 
+### ✔️ Projeto
+- Projeto desenvolvido com Flutter versão 3.24.1
+
 - Testes automatizados implementados: Unitários e Integração
 
 <p align="left"> 
