@@ -1,3 +1,6 @@
+# 1.1.1 [17-10-2024]
+* fix: readme with flutter version [17-10-2024]
+
 # 1.1.0 [17-10-2024]
 * feat: add flutter app release [17-10-2024]
 * feat: add integration home view test [17-10-2024]
